@@ -22,7 +22,7 @@ it('Create Guest Profile', ()=>{
        
         //callcenterloginpage.loginToCallCenter(data.ccusername, data.ccpassword);
         callcenterloginpage.GotoHomePage();
-      
+        cy.log('Reached to Home Page')
         editguest.SearchfortheGuest(data.enterprise, data.createcustomeremail)
         editguest.EditSurNameandPhone(data.editsurname, data.editphone)
                  })
