@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-11-23T11:28:24.362Z",
+    "end": "2024-11-23T11:28:55.067Z",
+    "duration": 30705,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "900d1ab6-2f11-48d6-911d-0bf36930c9da",
+      "title": "",
+      "fullFile": "cypress\\e2e\\TC_00_MSLoginPageTest.cy.js",
+      "file": "cypress\\e2e\\TC_00_MSLoginPageTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0417187c-3d5f-4e8d-b98c-a9fe7f027242",
+          "title": "Login Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login to Microsoft Site",
+              "fullTitle": "Login Page Login to Microsoft Site",
+              "timedOut": null,
+              "duration": 30622,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.fixture('loginData').then(data => {\n  msloginpage.EnterEmailandClick(data.username);\n  msloginpage.EnterPasswordandClick(data.password);\n  // msloginpage.ClickYesButton()\n  msloginpage.VerifySuccessfulLogintoMicrosoft();\n});",
+              "err": {},
+              "uuid": "62817b9c-cd12-4765-8cef-914836b65986",
+              "parentUUID": "0417187c-3d5f-4e8d-b98c-a9fe7f027242",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "62817b9c-cd12-4765-8cef-914836b65986"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30622,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "testresults",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "testresults",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

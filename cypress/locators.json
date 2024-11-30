@@ -1,0 +1,264 @@
+{
+    "mslogin" : {
+        "email" : "input[type='email']",
+        "password" : "input[type='password']",
+        "clickNext" : "input[type='submit']",
+        "logincallcentertext" : "div[class='login-container'] > div > form > h3"
+    },
+    "callcenterlogin" : {
+        "username" : "input[formcontrolname='email']",
+        "password" : "input[formcontrolname='password']",
+        "login" : "button"
+    },
+    "homepage" : {
+        "homepageicon" : "#ribbon-product-feature-item-cc-home",
+        "globalsearch" : "ibm-search[tid='CategorySearchComponentSearchInput']",
+        "createguestlink" : "button[tid='CcCustomerSearchWidgetComponent-create-new']"
+    },
+    "guestprofile" : {
+        "clickenterprise" : "button[aria-haspopup='listbox']",
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div",
+        "givenname" : "input[tid='call-center-contact-details-givenName']",
+        "surname" : "input[tid='call-center-contact-details-surname']",
+        "email" : "input[tid='call-center-contact-details-email']",
+        "phonenumber" : "input[tid='call-center-contact-details-dayPhone']",
+        "createprofilebutton" : "buc-button[tid='call-center-customer-create.create'] > button",
+        "verifyguestprofile" : "div[tid='customerDetails - emailID-value']",
+        "clickediticon" : "buc-button[type='ghost'] > button > svg[ibmIcon='edit']",
+        "saveEditProfile" : "ibm-modal-footer > footer > button"
+    }, 
+    
+    "editguest" : {
+        "homepageicon" : "#ribbon-product-feature-item-cc-home",
+        "changeenterprise" : "input[aria-haspopup='listbox']", 
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div",
+        "searchcustomer" : "input[placeholder='Guest name, email, or phone number']",
+        "clickediticon" : "buc-button[type='ghost'] > button > svg[ibmIcon='edit']",
+        "saveEditProfile" : "ibm-modal-footer > footer > button",
+        "surname" : "input[tid='call-center-contact-details-surname']",
+        "phonenumber" : "input[tid='call-center-contact-details-dayPhone']"
+    },
+    
+    "searchverifycustomer" : {
+        "changeenterprise" : "input[aria-haspopup='listbox']", 
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div",
+        "searchcustomer" : "input[placeholder='Guest name, email, or phone number']",
+        "invalidcustomer" :  "p[class='state_message']"
+    },
+    "createcustomeradvancesearch" : {
+        "clickonadvancesearch" : "div[class='search-box'] > div",
+        "changeenterprise" : "button[aria-haspopup='listbox']",
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div"
+    },
+    "createorder" : {
+        "createordersection" : "div.action-bar",
+        "customersearchcontainer" : "div[class='search-container']",
+        "customersearchresultlist" : "div[class='search-results customer-search-result-list']",
+        "createorderlink" : "button[tid='CcSearchWidgetComponent-create-new']",
+        "changeenterprise" : "input[aria-haspopup='listbox']",
+        "selectenterprise" : "ibm-dropdown-list > ul > li",
+        "clickokenterprise" : "footer > button",
+        "clickNextbutton" : "div[class='right-controls'] > buc-button > button",
+        "shippingpresent" : "ibm-tile[tid='customer-details-component-shipping-address-tile']",
+        "billingpresent" : "ibm-tile[tid='customer-details-component-billing-address-tile']",
+        "enterCustomer" : "div[role='search'] > input[placeholder='Search']",
+        "selectcustomer" :     "div[class='list-item']",
+        "displayshipping" : "buc-address-display[tid='customer-details-component-shipping-address-display']",
+        "displaybilling" : "buc-address-display[tid='customer-details-component-billing-address-display']",
+        "verifyselectedcustomer" : "div[tid='customer-details-component-customer-details-tile'] > div > div"
+    },
+    "shippingaddress" :
+    {
+        "clickedit" : "ibm-tile[tid='customer-details-component-shipping-address-tile'] > div > span[title='Edit']",
+        "ffshippingediticon" : "div[tid='FulfillmentDeliveryItemsComponent-changeShippingAddress-address-display'] > div[class='edit-action-container'] > span > ibm-icon-edit[tid='FulfillmentDeliveryItemsComponent-changeShippingAddress-icon-edit']",
+        "selectoverridecheckbox" : "div[class='bx--col address-section address-section-address'] > div >div > ibm-checkbox > div > input",
+        "address1" : "input[tid='address-edit-component-AddressLine1']",
+        "address2" : "input[tid='address-edit-component-AddressLine2']",
+        "city" : "input[tid='address-edit-component-City']",
+        "postalcode" : "input[tid='address-edit-component-ZipCode']",
+        "entercountry" : "input[role='combobox']",
+        "selectcountry" : "ibm-dropdown-list > ul > li > div",
+        "enterstate" : "buc-combobox[tid='address-edit-component-State'] > ibm-combo-box > div > div > div > input",
+        "enterintstate" : "input[tid='address-edit-component-State']",
+         "selectstate" : "ibm-dropdown-list > ul > li > div",
+        "saveshippingaddress" : "button[tid='modify-shipping-address-btn-save']"
+    },
+    "contact" :{
+        "addresstype" : "buc-label[tid='modify-shipping-address-address-type'] > ibm-label  >ibm-text-label > div > input",
+        "firstname" : "input[tid='address-edit-component-FirstName']",
+        "lastname" : "input[tid='address-edit-component-LastName']",
+        "phone" : "input[tid='address-edit-component-DayPhone']",
+        "emailid" : "input[tid='address-edit-component-EMailID']"
+    },
+    "billingaddress" :
+    {
+        "clickedit" : "ibm-tile[tid='customer-details-component-billing-address-tile'] > div > span[title='Edit']",
+        "savebillingaddress" : "button[tid='modify-shipping-address-btn-save']",
+        "createnext" : "buc-button[tid='order-create-next'] > button"
+    },
+    "productpage" :{
+        "searchproduct" : "input[placeholder='Search by SKU']",
+        "verifysearchsku" : "div[tid='ProductDetailComponent-item-information'] > div[class='custom-itemDetails-label'] > span[id = 'extnSKU']",
+        "getskuid" : "span[id='extnSKU']",
+        "addquantity" : "input[type='number']",
+        "addtocart" : "buc-button[class='add-cart-btn']"
+    },
+    
+    "viewminicart" : {
+        "createordersection" : "div.action-bar",
+        "createorderlink" : "button[tid='CcSearchWidgetComponent-create-new']",
+        "changeenterprise" : "input[aria-haspopup='listbox']",
+        "selectenterprise" : "ibm-dropdown-list > ul > li",
+        "clickokenterprise" : "footer > button",
+        "clickNextbutton" : "div[class='right-controls'] > buc-button > button",
+        "enterCustomer" : "div[role='search'] > input[placeholder='Search']",
+        "selectcustomer" :     "div[class='list-item']",
+        "verifyselectedcustomer" : "div[tid='customer-details-component-customer-details-tile'] > div > div",
+        "shippingpresent" : "ibm-tile[tid='customer-details-component-shipping-address-tile']",
+        "billingpresent" : "ibm-tile[tid='customer-details-component-billing-address-tile']",
+        "addresstype" : "buc-label[tid='modify-shipping-address-address-type'] > ibm-label  >ibm-text-label > div > input",
+        "firstname" : "input[tid='address-edit-component-FirstName']",
+        "lastname" : "input[tid='address-edit-component-LastName']",
+        "phone" : "input[tid='address-edit-component-DayPhone']",
+        "emailid" : "input[tid='address-edit-component-EMailID']",
+        "editicon" : "div[class='table-content'] > call-center-customer-address-summary > buc-button> button > svg[ibmIcon='edit']",
+        "address1" : "input[tid='address-edit-component-AddressLine1']",
+        "address2" : "input[tid='address-edit-component-AddressLine2']",
+        "city" : "input[tid='address-edit-component-City']",
+        "postalcode" : "input[tid='address-edit-component-ZipCode']",
+        "entercountry" : "buc-combobox[tid='address-edit-component-Country'] > ibm-combo-box > div > div > div > input",
+        "selectcountry" : "ibm-dropdown-list > ul > li > div",
+        "enterstate" : "buc-combobox[tid='address-edit-component-State'] > ibm-combo-box > div > div > div > input",
+        "selectstate" : "ibm-dropdown-list > ul > li > div",
+        "saveshippingaddress" : "button[tid='modify-shipping-address-btn-save']",
+        "clickshippingedit" : "ibm-tile[tid='customer-details-component-shipping-address-tile'] > div > span[title='Edit']",
+        "clickbillingedit" : "ibm-tile[tid='customer-details-component-billing-address-tile'] > div > span[title='Edit']",
+        "savebillingaddress" : "button[tid='modify-shipping-address-btn-save']",
+        "createnext" : "buc-button[tid='order-create-next'] > button",
+        "searchproduct" : "input[placeholder='Search by SKU']",
+        "getskuid" : "span[id='extnSKU']",
+        "addquantity" : "input[type='number']",
+        "addtocart" : "buc-button[class='add-cart-btn']",
+        "minicarticon" : "div[class='view-cart'] > a",
+        "checkoutbtn" :  "button[tid='view-cart-modal-checkout']",
+        "deletecartitem" : "ibm-icon-delete[tid='view-cart-orderline-table-delete-icon']",
+        "confirmdeleteitem" : "button[class='bx--btn bx--btn--primary']",
+        "verifydeleteditems" : "p[class='state_message']",
+        "selectproduct" : "tbody > tr > td > ibm-checkbox > div > input",
+        "removebutton" : "button[tid='removeLineId']",
+        "clickonyesbutton" : "button",
+        "minicarttable" : "table > tbody > tr"
+
+    },
+
+    "checkout" : {
+        "chooseshippingmethod" : "button[id='changeLevelOfService']",
+        "selectshippingmethod" : "ibm-dropdown-list > ul > li > div",
+        "addpaymentmethod" : "buc-button[tid='payment-details-add-payment-method-button'] > button",
+        "paymenttype" : "buc-dropdown[tid='payment-type-dropdown']",
+        "selectpaymenttype" : "ibm-dropdown-list > ul > li > div",
+        "cardtype" : "buc-dropdown[tid='card-type-dropdown']",
+        "selectcardtype" : "ibm-dropdown-list > ul > li > div",
+        "cardname" : "buc-label[tid='name-on-card'] > ibm-label > ibm-text-label > div > input",
+        "cardtoken" : "buc-label[tid='payment-token'] > ibm-label > ibm-text-label > div > input",
+        "card4digit" : "buc-label[tid='card-last-4-digits'] > ibm-label > ibm-text-label > div > input",
+        "expmonth" : "buc-dropdown[tid='expiration-month-dropdown'] > ibm-dropdown > div > button",
+        "selectexpmonth" : "ibm-dropdown-list > ul > li > div",
+        "expyear" : "buc-dropdown[tid='expiration-year-dropdown'] > ibm-dropdown > div > button",
+        "selectexpyear" : "ibm-dropdown-list > ul > li > div",
+        "savepaymentmethod" : "button[tid='save-payment-method']",
+        "placeorder" : "buc-button[tid='order-create-confirm'] > button",
+        "giftcardnumber" : "input[tid='card-number']",
+        "giftcardpin" : "input[tid='gift-card-pin']",
+        "selectorderaddress" : "ibm-tag[tid='modify-shipping-address-order-address-tag']",
+        "promotioncode" : "input[placeholder='Enter coupon']",
+        "applybutton" : "buc-button[tid='promotion-boxapplybtn'] > button",
+        "verifypromotion" : "buc-tag > ibm-tag-filter > span",
+        "verifyordernumber" : "div[tid='OrderStatusComponent-order-label']",
+         "selectmatchedaddress" : "fieldset > ibm-selection-tile"
+        
+    },
+    "presenceOfExistingCustomer" : {
+        "clickonadvancesearch" : "div[class='search-box'] > div > a",
+        "changeenterprise" : "input[aria-haspopup='listbox']",
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div",
+        "firstname" : "buc-label[tid='firstName'] > ibm-label > ibm-text-label > div > input",
+        "email" : "buc-label[tid='email'] > ibm-label > ibm-text-label > div > input",
+        "clicksearch" : "buc-button[tid='call-center-customer-search-search.search'] > button",
+        "verifycustomersection" : "section[class='route-container']",
+        "invalidcustomer" :  "p[class='state_message']",
+        "validcustomer" : "div[tid='customerDetails - emailID-value']"
+    },
+
+    "modifyshipping" :
+    {
+        "changeenterprise" : "input[aria-haspopup='listbox']", 
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div",
+        "searchcustomer" : "input[placeholder='Guest name, email, or phone number']",
+        "addresstype" : "buc-label[tid='modify-shipping-address-address-type'] > ibm-label  >ibm-text-label > div > input",
+        "firstname" : "input[tid='address-edit-component-FirstName']",
+        "lastname" : "input[tid='address-edit-component-LastName']",
+        "phone" : "input[tid='address-edit-component-DayPhone']",
+        "emailid" : "input[tid='address-edit-component-EMailID']",
+        "editicon" : "div[class='table-content'] > call-center-customer-address-summary > buc-button> button > svg[ibmIcon='edit']",
+        "presenseshipping" : "buc-radio-group[class='addresses-radio-group']",      
+        "address1" : "input[tid='address-edit-component-AddressLine1']",
+        "address2" : "input[tid='address-edit-component-AddressLine2']",
+        "city" : "input[tid='address-edit-component-City']",
+        "postalcode" : "input[tid='address-edit-component-ZipCode']",
+        "entercountry" : "buc-combobox[tid='address-edit-component-Country'] > ibm-combo-box > div > div > div > input",
+        "selectcountry" : "ibm-dropdown-list > ul > li > div",
+        "enterstate" : "buc-combobox[tid='address-edit-component-State'] > ibm-combo-box > div > div > div > input",
+        "selectstate" : "ibm-dropdown-list > ul > li > div",
+        "defaultshipping" : "ibm-tag[tid='modify-shipping-address-default-address-tag']",
+        "defaultbilling" : "ibm-tag[tid='modify-shipping-address-default-billing-address-tag']",
+        "saveshippingaddress" : "button[tid='modify-shipping-address-btn-save']",
+        "customerprofile" : "ibm-tag[tid='modify-shipping-address-customer-profile-tag']",
+        "defaultshipbillcheckbox" : "span[class='bx--checkbox-label-text']",
+        "addnewaddress" : "button[tid='modify-shipping-address-add-new-address-btn-link']"
+     },
+     
+     "editfullfillment" : {
+        "shippingsection" : "ibm-accordion-item[tid='FulfillmentMethodsComponent-Shipping Details-0-accordian-item']",
+        "editshippingicon" : "div[class='edit-action-container'] > span[title='Edit']",
+        "clicknotes" :  "button[title='Notes (0)']",
+        "addnote" : "button[id='undefined']",
+        "enternotetype" : "div[class='notes-division'] > buc-combobox > ibm-combo-box > div > label",
+        "selectnotetype" : "div > div > input",
+        "entercontacttype" : "div[class='contact-division'] > div > buc-combobox > ibm-combo-box > div > label",
+        "selectcotacttype" : "div > div > input",
+        "entercontactreference" : "buc-label[tid='contact-reference']",
+        "selecrcontactreference" : " ibm-label > ibm-text-label > div > input",
+        "enternotes" : "textarea[id='buc-textarea-comp']",
+        "savenotes" : "button[tid='add-note-save']",
+        "selectproduct" : "table > tbody > tr > td > ibm-checkbox > div > input[type='checkbox']",
+        "removebutton" : "button[tid='removeLineId']",
+        "clickonyesbutton" : "button[tid='remove-order-line-modal-yes-button']",
+        "verifynotes" : "div[tid='order-notes-cardcustomer-note-text']"
+     },
+     "searchorder" : {
+        "typeorderno" : "input[placeholder='Order number, email, or phone number']",
+        "orderlabel" : "div[tid='OrderStatusComponent-order-label']"
+        
+     },
+     "createordercloset" : {
+        "homepageicon" : "#ribbon-product-feature-item-cc-home",
+        "changeenterprise" : "input[aria-haspopup='listbox']", 
+        "selectenterprise" : "ibm-dropdown-list > ul > li > div",
+        "searchcustomer" : "input[placeholder='Guest name, email, or phone number']",
+        "closettab" : "button",
+        "buyagain" : "table > tbody > tr"
+     },
+
+     "cancelorder" : {
+        "selectproduct" : "table > thead > tr > th > ibm-checkbox > div > input[type='checkbox']",
+        "cancelbutton" : "button[tid='cancelMultipleOrderLines']",
+        "choosereason" :  "input[placeholder='Choose an option']",
+        "selectreason" : "ibm-dropdown-list > ul > li > div",
+        "addcomment" : "textarea[id='buc-textarea-comp']",
+        "cancelnextbutton" : "button[tid='CancelOrderModalComponent-button-next']",
+        "confirmcancel" : "button[tid='confirm-cancel']",
+        "refundsubmitbutton" : "buc-button[tid='payment-bifurcationrefund-btn']",
+        "cancelstatus" : "div[tid='OrderStatusComponent-order-status-warper']"
+     }
+}
